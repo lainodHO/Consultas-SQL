@@ -1,0 +1,4 @@
+Select *
+from INFORMATION_SCHEMA.TABLES
+where
+TABLE_NAME='Pilotos'

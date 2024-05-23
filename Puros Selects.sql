@@ -1,0 +1,36 @@
+SELECT*
+FROM PASAJEROS
+
+WHERE
+PASAJEROS.edad_pasajeros BETWEEN 18 AND 20
+ORDER BY PASAJEROS.nombre_pasajeros DESC
+
+/*Todos los nombres cullo nombre termine en a*/
+
+SELECT *
+FROM PASAJEROS
+WHERE
+PASAJEROS.nombre_pasajeros LIKE '%A'
+
+SELECT *
+FROM PASAJEROS
+WHERE
+PASAJEROS.nombre_pasajeros LIKE '%A'
+ORDER BY PASAJEROS.edad_pasajeros DESC
+
+SELECT* 
+FROM PILOTOS
+WHERE
+PILOTOS.id_pilotos BETWEEN 150 AND 250
+
+
+SELECT *
+FROM AVIONES
+WHERE
+AVIONES.tipo = 'BI'
+
+
+SELECT *
+FROM BOLETOS
+WHERE
+BOLETOS.id_boleto=2
